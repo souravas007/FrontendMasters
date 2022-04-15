@@ -1,97 +1,95 @@
 .main-brand {
-    font-size: 60px;
-    text-align: center;
-    font-weight: normal;
-    font-family: 'Beau Rivage', cursive;
-    margin: 60px 0;
+  font-size: 60px;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Beau Rivage", cursive;
+  margin: 60px 0;
 }
 
 .story-image {
-    width: 100%;
+  width: 100%;
 }
 
 .story-title {
-    font-weight: normal;
-    font-style: italic;
-    font-size: 30px;
-    margin: 15px 0;
-    text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 30px;
+  margin: 15px 0;
+  text-align: center;
 }
 
 .story-text {
-    line-height: 1.5;
-    font-size: 18px;
+  line-height: 1.5;
+  font-size: 18px;
 }
 
 .row {
-    display: flex;
-    align-items: stretch;
+  display: flex;
+  align-items: stretch;
 }
 
 .story {
-    border: 1px solid #333;
-    padding: 5px;
+  border: 1px solid #333;
+  padding: 5px;
 }
 
 .quarter {
-    flex: 1;
+  flex: 1;
 }
 
 .half {
-    flex: 2;
+  flex: 2;
 }
 
 .three-quarter {
-    flex: 3
+  flex: 3;
 }
 
 .nav-list {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .nav-items {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    padding-left: 25px;
-    font-size: 30px;
-    color: black;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-items a {
-    text-decoration: none;
-    color: #555;
-
+  text-decoration: none;
+  color: #555;
 }
 
 .nav-items a:hover {
-    text-decoration: underline;
-    color: #555;
-
+  text-decoration: underline;
+  color: #555;
 }
 
 .nav-items:nth-child(1) {
-    background-color: pink;
+  background-color: pink;
 }
 
 .nav-items:nth-child(2) {
-    background-color: cyan;
+  background-color: cyan;
 }
 
 .nav-items:nth-child(3) {
-    background-color: orange;
+  background-color: orange;
 }
 
 .nav-items:nth-child(4) {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 .nav-items:nth-child(5) {
-    background-color: yellow;
+  background-color: yellow;
 }
